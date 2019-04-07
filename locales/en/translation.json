@@ -1,0 +1,17 @@
+{
+    "about": "BIT OF IT",
+    "about-text": "We believe in simplicity and usability. We develop a software which does exactly what is expected, which does not irritate but helps.",
+
+    "projects": "PROJECTS",
+    "projects-bcontrol-text": "Try-icon utility for adjusting the monitor brightness (desktop and laptop)",
+    "projects-bcontrol-link": "download",
+    "projects-wlcalendar-text": "Desktop gadget showing your events from online sources",
+    "projects-dreamsplan-text": "Minimalistic task planning tool with timeline inspired by sticky notes",
+    "projects-reservation": "Reservation system for pension",
+    "projects-reservation-text": "Windows app integrated with pension's web page for management of bookings",
+    "projects-morphing-text": "Simple graphics editor for morhphing of images with export of animations",
+
+    "contact": "CONTACT",
+    "address": "Address:",
+    "address-text": "BitIT s.r.o., Nove sady 988/2, 602 00 Brno, Czech Republic"
+}
