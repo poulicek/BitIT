@@ -22,6 +22,11 @@
         font-weight: 700;
         font-size: 400%;
     }
+
+    h1 span {
+        font-weight: 100;
+        font-size: 60%;
+    }
     
     h2 {
         color: black;
