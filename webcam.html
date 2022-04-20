@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #111111;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        video {
+            width: 600px;
+            height: 450px;
+            border: 2px solid black;
+            background: black;
+        }
+    </style>
+</head>
+
+<body>
+    <video autoplay></video>
+</body>
+<script type="application/javascript">
+    const video = document.querySelector('video');
+
+    const startWebCam = () => {
+        if (navigator.mediaDevices.getUserMedia) {
+            navigator.mediaDevices.getUserMedia({ video: true })
+                .then(stream => video.srcObject = stream).catch(error => console.log(error));
+        }
+    }
+    startWebCam();
+</script>
+
+</html>
